@@ -1,0 +1,120 @@
+html
+   {
+font-size: 10px;
+background-color:#D5DBDB;
+}
+body
+{
+ font-family: 'Trebuchet MS';
+ font-size: 1.6rem;
+ line-height: 1.5;
+ text-align: center;
+ color: #F2F3F4;
+ margin: 0;
+
+}
+h1
+{
+ font-size: 4rem;
+ margin-bottom: 0;
+}
+@media(max-width: 460px)
+{
+ h1
+ {
+   font-size: 3.5rem;
+   line-height: 1.2;
+ }
+}
+h2
+{
+ font-size:3.25rem;
+}
+a
+{
+ color: #D5DBDB;
+}
+a:visited
+{
+ color: #D5DBDB;
+}
+#main
+{
+margin: 30px 8px;
+padding: 15px;
+border-radius: 5px;
+background: #5D6D7E;
+}
+@media(max-width: 460px)
+{
+ #main
+ {
+   margin: 0;
+ }
+}
+
+img
+{
+ max-width: 100%;
+ display: block;
+ height: auto;
+ margin: 0 auto;
+ }
+
+ #img-div
+ {
+   background: #2C3E50;
+   padding: 10px;
+   margin: 0;
+   color: white;
+ }
+
+ #img-caption
+ {
+   margin: 15px 0 5px 0;
+ }
+ @media (max-width: 460px)
+ {
+   #img-caption
+   {
+     font-size: 1.4rem;
+
+   }
+ }
+ #headline
+ {
+   margin: 50px;
+   text-align: center;
+ }
+ #tribute-info
+ {
+   font-size: 20px;
+ }
+ #tribute-link
+ {
+   font-size: 20px;
+ }
+ ul
+ {
+   max-width: 550px;
+   margin: 0 auto 50px auto;
+   text-align: left;
+   text-height: 1.6;
+ }
+ li
+ {
+   margin: 33px 0;
+ }
+ blockqoute
+ {
+   font-style: cursive;
+   max-width: 545px;
+   margin: 0 auto 50px auto;
+   text-align: left;
+ }
+ footer
+ {
+   font-size:12px;
+   color: #F2F3F4;
+   text-align: right;
+ }
